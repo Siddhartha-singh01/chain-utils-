@@ -1,5 +1,5 @@
 {
-  "name": "chain-utils",
+  "name": "chain-utils-siddharthasingh",
   "version": "0.1.0",
   "description": "Low-level Bitcoin utility library \u2014 varint decoding, raw transaction parsing, Merkle root computation, and hash primitives.",
   "type": "commonjs",

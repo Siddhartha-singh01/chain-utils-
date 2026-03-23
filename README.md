@@ -1,4 +1,4 @@
-# chain-utils
+# chain-utils-siddharthasingh
 
 Zero-dependency Bitcoin primitives for Node.js.
 
@@ -9,7 +9,7 @@ Requires Node 18+ (uses built-in `crypto` for everything).
 ## Install
 
 ```bash
-npm install chain-utils
+npm install chain-utils-siddharthasingh
 ```
 
 ## Usage
