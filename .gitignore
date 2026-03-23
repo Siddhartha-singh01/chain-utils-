@@ -1,0 +1,9 @@
+node_modules
+dist
+*.log
+test_output.txt
+publint.txt
+debug.mjs
+debug.js
+.DS_Store
+*.tgz

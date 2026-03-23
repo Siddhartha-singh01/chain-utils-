@@ -1,0 +1,50 @@
+{
+  "name": "chain-utils",
+  "version": "0.1.0",
+  "description": "Low-level Bitcoin utility library \u2014 varint decoding, raw transaction parsing, Merkle root computation, and hash primitives.",
+  "type": "commonjs",
+  "main": "./dist/index.js",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.mjs",
+      "require": "./dist/index.js"
+    }
+  },
+  "files": [
+    "dist"
+  ],
+  "sideEffects": false,
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "build": "tsup",
+    "test": "vitest",
+    "prepublishOnly": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Siddhartha-singh01/chain-utils.git"
+  },
+  "keywords": [
+    "bitcoin",
+    "varint",
+    "merkle",
+    "hash"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Siddhartha-singh01/chain-utils/issues"
+  },
+  "homepage": "https://github.com/Siddhartha-singh01/chain-utils#readme",
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "tsup": "^8.0.0",
+    "typescript": "^5.0.0",
+    "vitest": "^1.0.0"
+  }
+}
